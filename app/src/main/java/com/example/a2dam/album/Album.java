@@ -38,7 +38,7 @@ public class Album extends AppCompatActivity implements View.OnClickListener {
 
         Toast.makeText(this, "Falla el if", Toast.LENGTH_SHORT).show();
 
-        if (v.getId() == album1.getId()) {
+        if (v.getId() == R.id.album) {
 
             fotosLayout.setBackgroundColor(1);
             Toast.makeText(this, "Has pulsado album 1", Toast.LENGTH_SHORT).show();
